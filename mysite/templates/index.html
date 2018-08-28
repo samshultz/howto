@@ -1,0 +1,17 @@
+{% load static %}
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+<head>
+  {% include "partials/header.html" %}
+  <title>Steps</title>
+  
+</head>
+<body>
+    <div class= "section" id="root"></div>
+  
+  {% render_bundle 'main' %}
+  {% include 'partials/scripts.html' %}
+  
+</body>
+</html>
