@@ -1,8 +1,10 @@
 bleach==2.1.4
 certifi==2018.8.24
+dj-database-url==0.5.0
 Django==2.0.8
 django-ckeditor==5.6.1
 django-cors-headers==2.4.0
+django-heroku==0.3.1
 django-js-asset==1.1.0
 django-webpack-loader==0.6.0
 djangorestframework==3.8.2
@@ -19,3 +21,4 @@ text-unidecode==1.2
 virtualenv==16.0.0
 virtualenv-clone==0.3.0
 webencodings==0.5.1
+whitenoise==4.0

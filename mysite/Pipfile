@@ -9,6 +9,7 @@ django-webpack-loader = "*"
 bleach = "*"
 pillow = "*"
 mixer = "*"
+gunicorn = "*"
 
 [dev-packages]
 
